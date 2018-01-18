@@ -100,7 +100,7 @@ public class SimplyServed extends HttpServlet {
 		 System.out.println("request.getLocalName() = "+request.getLocalName()+"<br>");
 		 System.out.println("request.getLocalPort() = "+request.getLocalPort()+"<br>");
 		 System.out.println("request.getMethod() = "+request.getMethod()+"<br>");
-		 try {
+/*		 try {
 			System.out.println("request.getPart() = "+request.getPart("mime-type")+"<br>");
 		} catch (IllegalStateException e) {
 			e.printStackTrace();
@@ -108,7 +108,7 @@ public class SimplyServed extends HttpServlet {
 			e.printStackTrace();
 		} catch (ServletException e) {
 			e.printStackTrace();
-		}
+		}  */
 		 System.out.println("request.getPathTranslated() = "+request.getPathTranslated()+"<br>");
 		 System.out.println("request.getPathInfo() = "+request.getPathInfo() +"<br>");
 		 System.out.println("request.getProtocol() = "+request.getProtocol()+"<br>");
